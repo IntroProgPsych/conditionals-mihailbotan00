@@ -7,3 +7,10 @@
 # 70-79: C
 # 60-69: D
 # Below 60: F
+grade = int(input("Student score"))
+
+if grade>=90:
+    print("A")
+if grade>=80 and grade<90:
+    print("B")
+if grade>=70 and grade
